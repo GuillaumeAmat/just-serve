@@ -6,4 +6,4 @@ EXPOSE 5000
 
 WORKDIR "/data"
 
-CMD [ "serve", "/data" ]
+CMD [ "serve", "--single", "/data" ]
